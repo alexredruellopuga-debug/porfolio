@@ -1,0 +1,470 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Álex Redruello Puga — Periodista &amp; Fotógrafo</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Swiper.js CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <!-- AOS CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+
+  <!-- Estilos propios -->
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ══════════════════════════════════════════
+       NAVBAR
+  ══════════════════════════════════════════ -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">ARP</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#galeria">Galería</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ══════════════════════════════════════════
+       HERO
+  ══════════════════════════════════════════ -->
+  <section class="hero" id="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-bg" style="background-image: url('images/hero.jpg')"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow" data-aos="fade-down" data-aos-delay="100">Periodismo · Fotografía · Música</p>
+      <h1 class="hero-title" data-aos="fade-up" data-aos-delay="200">Álex Redruello Puga</h1>
+      <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="350">Periodista&nbsp;|&nbsp;Fotógrafo</p>
+      <a href="#proyectos" class="btn-hero" data-aos="fade-up" data-aos-delay="500">Ver mi trabajo</a>
+    </div>
+    <a href="#sobre-mi" class="hero-scroll-hint" aria-label="Desplazarse hacia abajo">
+      <span class="scroll-arrow"></span>
+    </a>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       SOBRE MÍ
+  ══════════════════════════════════════════ -->
+  <section class="section sobre-mi" id="sobre-mi">
+    <div class="container">
+      <div class="sobre-grid">
+        <div class="sobre-img-wrap" data-aos="fade-right">
+          <img src="images/foto_gradu.jpeg" alt="Álex Redruello Puga" class="sobre-img sobre-img--gradu" />
+          <div class="sobre-img-border"></div>
+        </div>
+        <div class="sobre-text" data-aos="fade-left" data-aos-delay="150">
+          <span class="section-tag">Sobre mí</span>
+          <h2 class="section-title">Contar historias<br /><em>en todos los formatos</em></h2>
+          <p>
+            Entré en la carrera de Periodismo con un objetivo claro: cubrir los deportes en cualquier formato,
+            aunque mi gran debilidad siempre fue la radio. Sin embargo, en el camino descubrí que, más allá
+            del deporte, tengo en mi otras vocaciones, como contar historias, sin importar el medio.
+          </p>
+          <p>
+            Hoy me defino como un periodista polivalente, un curioso de la fotografía y músico de vocación,
+            sin dejar de lado mi gran pasión por los deportes. Disfruto tanto capturando la tensión y la emoción
+            que se respira a pie de campo, como creando reportajes que ponen en valor el patrimonio cultural
+            de mi entorno. De hecho, el periodismo me ha regalado la oportunidad de entrelazar mis raíces y
+            mis aficiones, permitiéndome reflejar la esencia de la música y de mi pueblo, Luarca, en un mismo trabajo.
+          </p>
+          <p>
+            Me desenvuelvo con soltura en el ecosistema digital y en el manejo de redes sociales, y me manejo
+            bien en el mundo de la edición. Considero que mi mayor fortaleza es la actitud, aprendo rápido,
+            me adapto a los cambios y siempre busco aportar una perspectiva creativa y fresca a todo lo que hago,
+            manteniendo una disposición constante para seguir adquiriendo nuevos conocimientos.
+          </p>
+          <ul class="sobre-chips">
+            <li>Periodismo (USC)</li>
+            <li>Fotografía Deportiva</li>
+            <li>Inglés Medio-Alto</li>
+            <li>Francés A2</li>
+            <li>Canva &amp; Edición de vídeo</li>
+            <li>Social Media</li>
+            <li>VSCode + IA</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       PROYECTOS
+  ══════════════════════════════════════════ -->
+  <section class="section proyectos" id="proyectos">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Portfolio</span>
+        <h2 class="section-title">Proyectos</h2>
+      </div>
+      <div class="proyectos-grid">
+
+        <!-- Proyecto 1: Copa del Rey -->
+        <article class="proyecto-card proyecto-card--clickable" data-modal="copa" data-aos="fade-up" data-aos-delay="100">
+          <div class="proyecto-img-wrap">
+            <img src="images/copa_del_rey/Fotos Alex_0017.jpg" alt="Copa del Rey - CD Puerto de Vega vs R.C. Celta de Vigo" class="proyecto-img" />
+            <div class="proyecto-card-badge">Ver más</div>
+          </div>
+          <div class="proyecto-info">
+            <span class="proyecto-tag">Fotografía Deportiva</span>
+            <h3>Copa del Rey — Octubre 2025</h3>
+            <p>Cobertura fotográfica del partido CD Puerto de Vega vs. R.C. Celta de Vigo para el medio <em>Diario UF</em>. Trabajo a pie de campo capturando los momentos más intensos del encuentro.</p>
+            <div class="proyecto-meta">
+              <span>Oct 2025 · Diario UF</span>
+              <span class="proyecto-link">Ver reportaje &amp; fotos →</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Proyecto 2: Melodías de Luarca -->
+        <article class="proyecto-card proyecto-card--clickable" data-url="http://melodiasdeluarca.es" data-aos="fade-up" data-aos-delay="200">
+          <div class="proyecto-img-wrap">
+            <img src="images/melodias_de_luarca.png" alt="Melodías de Luarca - Proyecto Documental" class="proyecto-img" />
+            <div class="proyecto-card-badge">Visitar ↗</div>
+          </div>
+          <div class="proyecto-info">
+            <span class="proyecto-tag">Reportaje Multimedia</span>
+            <h3>Melodías de Luarca — Nov 2025</h3>
+            <p>Co-creador del proyecto documental web sobre la historia y el legado de la Banda de Música <em>«La Lira»</em> de Luarca. Un viaje a través del patrimonio musical asturiano.</p>
+            <div class="proyecto-meta">
+              <span>Nov 2025</span>
+              <span class="proyecto-link">melodiasdeluarca.es ↗</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Proyecto 3: @arp.photos_ -->
+        <article class="proyecto-card proyecto-card--clickable" data-modal="arphotos" data-aos="fade-up" data-aos-delay="300">
+          <div class="proyecto-img-wrap proyecto-img-wrap--logo">
+            <img src="images/logo_fotos.png" alt="Galería fotográfica @arp.photos_" class="proyecto-img proyecto-img--logo" />
+            <div class="proyecto-card-badge">Ver más</div>
+          </div>
+          <div class="proyecto-info">
+            <span class="proyecto-tag">Galería Digital</span>
+            <h3>@arp.photos_ — Instagram</h3>
+            <p>Muestra continua de trabajos fotográficos enfocados al ámbito deportivo y local. Seguimiento de eventos, partidos y momentos del entorno de Luarca y Asturias.</p>
+            <div class="proyecto-meta">
+              <span>Continuo</span>
+              <span class="proyecto-link">Saber más →</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       GALERÍA (SLIDER)
+  ══════════════════════════════════════════ -->
+  <section class="section galeria" id="galeria">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Fotografía</span>
+        <h2 class="section-title">Galería</h2>
+      </div>
+    </div>
+    <div class="swiper galeria-swiper" data-aos="fade-up" data-aos-delay="150">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="images/copa_del_rey/Fotos Alex_0034.jpg" alt="Fotografía Copa del Rey" /></div>
+        <div class="swiper-slide"><img src="images/foto_deportiva/2.JPG" alt="Fotografía deportiva" /></div>
+        <div class="swiper-slide"><img src="images/foto_variada/20240420124817_IMG_0467.JPG" alt="Fotografía variada" /></div>
+        <div class="swiper-slide"><img src="images/foto_variada/IMG_1745.JPG" alt="Fotografía variada" /></div>
+        <div class="swiper-slide"><img src="images/foto_variada/20240420114834_IMG_0439.JPG" alt="Fotografía variada" /></div>
+        <div class="swiper-slide"><img src="images/copa_del_rey/IMG_1657.JPG" alt="Fotografía Copa del Rey" /></div>
+      </div>
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+      <button class="lightbox-close" id="lightboxClose" aria-label="Cerrar">&times;</button>
+      <button class="lightbox-prev" id="lightboxPrev" aria-label="Anterior">&#10094;</button>
+      <img src="" alt="Foto ampliada" class="lightbox-img" id="lightboxImg" />
+      <button class="lightbox-next" id="lightboxNext" aria-label="Siguiente">&#10095;</button>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       EXPERIENCIA (TIMELINE)
+  ══════════════════════════════════════════ -->
+  <section class="section experiencia" id="experiencia">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Trayectoria</span>
+        <h2 class="section-title">Experiencia</h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-year">2025</span>
+            <h4>Fotógrafo Deportivo</h4>
+            <p>Colaboración puntual con <strong>Diario UF</strong>. Cobertura fotográfica de un evento deportivo.</p>
+          </div>
+        </div>
+        <div class="timeline-item" data-aos="fade-up" data-aos-delay="150">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-year">2026 – actualidad</span>
+            <h4>Social Media Manager &amp; Secretario</h4>
+            <p><strong>Charanga El Trasgu</strong> (Co-fundador). Gestión de comunidad, creación de contenido y administración.</p>
+          </div>
+        </div>
+        <div class="timeline-item" data-aos="fade-up" data-aos-delay="175">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-year">2026 – actualidad</span>
+            <h4>Colaborador en redes sociales</h4>
+            <p><strong>Banda de Música 'La Lira' de Luarca</strong>. Apoyo en la difusión y gestión de contenido en redes sociales.</p>
+          </div>
+        </div>
+        <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-year">Verano 2024 &amp; 2025</span>
+            <h4>Trabajo en tienda</h4>
+            <p><strong>Supermercados ALIMERKA</strong>.</p>
+          </div>
+        </div>
+        <div class="timeline-item" data-aos="fade-up" data-aos-delay="250">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-year">2023</span>
+            <h4>Colaboración en organización de eventos</h4>
+            <p>Campeonato de Fútbol Sala <em>«Internacional»</em> de Luarca. Staff de organización.</p>
+          </div>
+        </div>
+        <div class="timeline-item" data-aos="fade-up" data-aos-delay="300">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-year">En curso</span>
+            <h4>4º Grado en Periodismo</h4>
+            <p><strong>Universidad de Santiago de Compostela (USC)</strong>.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       CONTACTO
+  ══════════════════════════════════════════ -->
+  <section class="section contacto" id="contacto">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Contacto</span>
+        <h2 class="section-title">Hablemos</h2>
+      </div>
+      <div class="contacto-grid">
+        <div class="contacto-info" data-aos="fade-right">
+          <p class="contacto-desc">
+            ¿Tienes un proyecto en mente, necesitas un fotógrafo para tu evento o quieres colaborar en un reportaje?
+            Escríbeme y te respondo lo antes posible.
+          </p>
+          <ul class="contacto-links">
+            <li>
+              <span class="contacto-icon">✉</span>
+              <a href="mailto:alexredruellopuga@gmail.com">alexredruellopuga@gmail.com</a>
+            </li>
+            <li>
+              <span class="contacto-icon">📷</span>
+              <a href="https://www.instagram.com/arp.photos_" target="_blank" rel="noopener">@arp.photos_</a>
+            </li>
+            <li>
+              <span class="contacto-icon">🌐</span>
+              <a href="http://melodiasdeluarca.es" target="_blank" rel="noopener">melodiasdeluarca.es</a>
+            </li>
+          </ul>
+        </div>
+        <form class="contacto-form" id="contactForm" data-aos="fade-left" data-aos-delay="150">
+          <div class="form-group">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="tu@email.com" required />
+          </div>
+          <div class="form-group">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="5" placeholder="Cuéntame tu idea..." required></textarea>
+          </div>
+          <button type="submit" class="btn-submit">Enviar mensaje</button>
+          <p class="form-note" id="formNote"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       FOOTER
+  ══════════════════════════════════════════ -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer-logo">ARP</p>
+      <p class="footer-copy">© 2026 Álex Redruello Puga · Periodista &amp; Fotógrafo</p>
+      <div class="footer-socials">
+        <a href="mailto:alexredruellopuga@gmail.com" aria-label="Email">✉</a>
+        <a href="https://www.instagram.com/arp.photos_" target="_blank" rel="noopener" aria-label="Instagram">IG</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ══════════════════════════════════════════
+       MODAL: COPA DEL REY
+  ══════════════════════════════════════════ -->
+  <div class="pmodal" id="modal-copa" role="dialog" aria-modal="true" aria-label="Copa del Rey">
+    <div class="pmodal-overlay"></div>
+    <div class="pmodal-panel">
+      <button class="pmodal-close" data-close-modal aria-label="Cerrar">&times;</button>
+
+      <div class="pmodal-scroll">
+        <div class="pmodal-header">
+          <span class="section-tag">Fotografía Deportiva · Octubre 2025</span>
+          <h2 class="pmodal-title">Copa del Rey<br /><em>CD Puerto de Vega vs. R.C. Celta de Vigo</em></h2>
+          <p class="pmodal-subtitle">Cobertura para <strong>Diario UF</strong> · Campo Municipal de Puerto de Vega</p>
+        </div>
+
+        <div class="pmodal-text">
+          <p>
+            Acreditarse para cubrir un encuentro de Copa del Rey siendo estudiante de Periodismo es
+            una de esas oportunidades que no se olvidan. El partido enfrentaba a un humilde equipo de
+            Primera División asturiana, el Puerto de Vega C.F, con uno de los grandes de la Liga
+            española, el R.C. Celta de Vigo. El contraste no podría haber sido mayor: un campo de
+            hierba natural encajado en la orilla de la ría de Navia, lleno de vecinos del pueblo, frente a
+            un equipo de élite.
+          </p>
+          <p>
+            Mi trabajo ese día fue documentar cada rincón del evento: los calentamientos, los
+            aficionados locales abarrotando la grada, los jugadores del Celta intentando adaptarse a un
+            terreno muy diferente al de Balaídos, y por supuesto la acción dentro del campo. Fue un
+            ejercicio de fotografía de alta presión, con luz cambiante, espacio reducido en la banda y
+            mucho movimiento, lo que me obligó a anticiparme al juego y a confiar en mi intuición para
+            capturar los instantes decisivos.
+          </p>
+          <p>
+            El resultado final fue una cobertura fotográfica completa publicada en <strong>Diario UF</strong>,
+            con imágenes del ambiente, los protagonistas y los momentos más destacados de un partido
+            que quedará en la memoria de Puerto de Vega mucho tiempo.
+          </p>
+        </div>
+
+        <div class="pmodal-gallery-header">
+          <span class="section-tag">Galería de imágenes</span>
+        </div>
+
+        <div class="swiper copa-swiper">
+          <div class="swiper-wrapper">
+            
+
+
+          
+            
+            <div class="swiper-slide"><img src="images/copa_del_rey/Fotos USC1_0024.jpg" alt="Copa del Rey" /></div>
+            <div class="swiper-slide"><img src="images/copa_del_rey/Fotos Alex_0017.jpg" alt="Copa del Rey" /></div>
+            <div class="swiper-slide"><img src="images/copa_del_rey/Fotos Alex_0034.jpg" alt="Copa del Rey" /></div>
+            <div class="swiper-slide"><img src="images/copa_del_rey/Fotos Alex_0043.jpg" alt="Copa del Rey" /></div>
+            <div class="swiper-slide"><img src="images/copa_del_rey/Fotos Alex_0049.jpg" alt="Copa del Rey" /></div>
+            <div class="swiper-slide"><img src="images/copa_del_rey/TUSC2_0025.jpg" alt="Copa del Rey" /></div>
+
+          </div>
+          <div class="swiper-pagination copa-pagination"></div>
+          <div class="swiper-button-prev copa-prev"></div>
+          <div class="swiper-button-next copa-next"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════
+       MODAL: @ARP.PHOTOS_
+  ══════════════════════════════════════════ -->
+  <div class="pmodal" id="modal-arphotos" role="dialog" aria-modal="true" aria-label="@arp.photos_">
+    <div class="pmodal-overlay"></div>
+    <div class="pmodal-panel">
+      <button class="pmodal-close" data-close-modal aria-label="Cerrar">&times;</button>
+      <div class="pmodal-scroll">
+        <div class="pmodal-header">
+          <span class="section-tag">Galería Digital · Instagram</span>
+          <h2 class="pmodal-title">@arp.photos_<br /><em>La fotografía como forma de narrar</em></h2>
+        </div>
+        <div class="pmodal-text">
+          <p>
+            La fotografía llegó a mi vida de la mano del deporte y sobre todo de la curiosidad. Empecé
+            llevando la cámara a lugares cerca de mi zona que transmiten una energía única, queriendo
+            plasmarla en cada fotografía; después fui experimentando con mi cámara hasta llegar a la
+            fotografía deportiva, empezando a cubrir partidos de los equipos locales de Luarca casi por
+            inercia, intentando capturar lo que me gustaba ver como aficionado: el esfuerzo, la
+            concentración antes del salto, el gol que nadie esperaba. Con el tiempo entendí que la
+            cámara no era solo una herramienta técnica, sino una forma de mirar el mundo con más
+            atención.
+          </p>
+          <p>
+            Lo que más me atrae de la fotografía deportiva es la impredictibilidad. No puedes repetir
+            una jugada. Tienes que anticiparte, confiar en el instinto y aceptar que a veces el mejor
+            disparo es el que no llegaste a hacer. Esa tensión entre control y azar es lo que me
+            mantiene enganchado.
+          </p>
+          <p>
+            En <strong>@arp.photos_</strong> publico una selección de mis trabajos: partidos de fútbol,
+            momentos del entorno local asturiano, eventos culturales y cualquier escena que merezca
+            ser fijada en el tiempo. Es mi cuaderno de campo visual.
+          </p>
+        </div>
+
+        <!-- Slider único: @arp.photos_ -->
+        <div class="pmodal-gallery-header">
+          <span class="section-tag">Galería de prueba</span>
+        </div>
+        <div class="swiper arphotos-swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="images/foto_variada/20240420124817_IMG_0467.JPG" alt="Foto de prueba 1" /></div>
+            <div class="swiper-slide"><img src="images/foto_variada/IMG_1745.JPG" alt="Foto de prueba 2" /></div>
+            <div class="swiper-slide"><img src="images/foto_deportiva/26.JPG" alt="Foto de prueba 3" /></div>
+            <div class="swiper-slide"><img src="images/foto_deportiva/IMG_0969.JPG" alt="Foto de prueba 4" /></div>
+            <div class="swiper-slide"><img src="images/copa_del_rey/Fotos Alex_0034.jpg" alt="Foto de prueba 5" /></div>
+            <div class="swiper-slide"><img src="images/foto_variada/IMG_1786.JPG" alt="Foto de prueba 6" /></div>
+          </div>
+          <div class="swiper-pagination arphotos-pagination"></div>
+          <div class="swiper-button-prev arphotos-prev"></div>
+          <div class="swiper-button-next arphotos-next"></div>
+        </div>
+
+        <div class="arphotos-cta">
+          <a href="https://www.instagram.com/arp.photos_" target="_blank" rel="noopener" class="btn-instagram">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="22" height="22" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 1.366.062 2.633.326 3.608 1.3.975.975 1.238 2.242 1.3 3.608.058 1.266.07 1.646.07 4.85s-.012 3.584-.07 4.85c-.062 1.366-.326 2.633-1.3 3.608-.975.975-2.242 1.238-3.608 1.3-1.266.058-1.646.07-4.85.07s-3.584-.012-4.85-.07c-1.366-.062-2.633-.326-3.608-1.3-.975-.975-1.238-2.242-1.3-3.608C2.175 15.584 2.163 15.204 2.163 12s.012-3.584.07-4.85c.062-1.366.326-2.633 1.3-3.608.975-.975 2.242-1.238 3.608-1.3C8.416 2.175 8.796 2.163 12 2.163zm0-2.163C8.741 0 8.332.014 7.052.072 5.197.157 3.355.673 2.014 2.014.673 3.355.157 5.197.072 7.052.014 8.332 0 8.741 0 12c0 3.259.014 3.668.072 4.948.085 1.855.601 3.697 1.942 5.038 1.341 1.341 3.183 1.857 5.038 1.942C8.332 23.986 8.741 24 12 24s3.668-.014 4.948-.072c1.855-.085 3.697-.601 5.038-1.942 1.341-1.341 1.857-3.183 1.942-5.038.058-1.28.072-1.689.072-4.948 0-3.259-.014-3.668-.072-4.948-.085-1.855-.601-3.697-1.942-5.038C20.645.673 18.803.157 16.948.072 15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zm0 10.162a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/></svg>
+            Ver @arp.photos_ en Instagram
+          </a>
+        </div>
+      </div><!-- /pmodal-scroll -->
+    </div><!-- /pmodal-panel -->
+  </div>
+
+  <!-- Swiper.js JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- AOS JS -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+  <!-- Script propio -->
+  <script src="js/main.js"></script>
+</body>
+</html>
+
+
